@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>news_site</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+HK&family=Playfair+Display:ital,wght@1,700&family=Tiro+Telugu:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/news.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top py-0 mb-3" style="height: 60px;">
+  <div class="container p-0">
+    <a class="navbar-brand" href="#">
+      <img src="logo-1.jfif" alt="" width="65" height="55" class="d-inline-block align-text-bottom">
+      <span class="brand-name">AL JAZEERA</span>
+    </a>
+    <span class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"></span>
+  </div>
+</nav>
+<div class="offcanvas-xxl offcanvas-top" style="height: 26rem;" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title mx-auto my-0" id="offcanvasResponsiveLabel">Quick Links</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body py-0">
+    <div class="row d-flex justify-content-center">
+      <div class="card  col-xl-3 col-lg-6 me-2 mb-2">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: 700;">News</h5>
+          <div class="row d-flex mt-3">
+            <div class="col-5 text-start">
+              <p>Asia</p> 
+              <p>Africa</p>
+              <p>Europe</p>
+              <p>Middle East</p>
+              <p>US & Canada</p>
+              <p>Latin America</p>
+            </div>
+            <div class="col-7 text-start">
+              <p>Sports</p>
+              <p>Economy</p>
+              <p>Now Happening</p>
+              <p>Ukraine war</p>
+              <p>Entertainment</p>
+              <p>Technology Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-start col-xl-3 col-lg-6 me-2 mb-2">
+        <div class="card-body">
+          <h5 class="card-title mb-3" style="font-weight: 700;">Documentries</h5>
+          <p>Coronavirus</p>
+          <p>Climate Crisis</p>
+          <p>Investigations</p>
+          <p>Interactives</p>
+          <p>Podcasts</p>
+          <p>Science & Technology</p>
+        </div>
+      </div>
+
+      <div class="card text-start col-xl-4 col-lg-6 mb-2">
+        <div class="card-body">
+          <div class="row mb-5">
+            <h5 class="card-title text-center" style="font-weight: 700;">Services</h5>
+            <div class="card-content d-flex justify-content-evenly p-2">
+              <p>Apps</p>
+              <p>Newsletters</p>
+              <p>Watch Aljazeera live Now</p>
+            </div>
+          </div>
+          <div class="row">
+            <h5 class="card-title text-center" style="font-weight: 700;">ON SOCIAL MEDIA</h5>
+            <div class="card-content d-flex justify-content-evenly p-2">
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-rss-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-lg container-first" >
+  <div class="row">
+    <div class="col-lg-8 col-sm 12 pt-2">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/F-POY4Q0QSI" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="text my-3">
+        <h1>Watch Al Jazeera live Breaking news, Documentries and Inside Stories Now.</h1>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12" style="height: 100%;">
+      <h2 class="text-center ">MOST READ</h2>
+      <p>- The Gaza Strip explained in maps</p>
+      <p>- Israel’s assault on Gaza: What we know so far</p>
+      <p>- Timeline: Israel’s attacks on Gaza since 2005</p>
+      <p>- Russia-Ukraine war: List of key events, day 165</p>
+      <p>- China, Taiwan play high-seas ‘cat and mouse’ as drills wrap up</p>
+      <p>- Gaza attack: What is the Palestinian Islamic Jihad?</p>
+      <p>- Ukraine ‘corrodes’ Russian forces in southern counteroffensive</p>
+      <p>- Israel will ‘pay a heavy price’ after Gaza attack, Iran warns</p>
+      <p>- UN special rapporteur says Israeli strikes on Gaza are ‘illegal’</p>
+      <p>- Several children, commander killed in Israeli attack on Gaza</p>
+      <p>- China, Taiwan play high-seas ‘cat and mouse’ as drills wrap up</p>
+      
+    </div>
+  </div>
+</div>
+<div class="container-lg container-second mt-3 px-4">
+    <h1 class="pt-2 text-center">Features</h1>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper mb-5">
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-21.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">Australia’s Qantas Airways has unveiled plans to add six Airbus converted freighters to its domestic fleet to replace five ageing Boeing 737s and expand capacity to meet a surge in demand from online shopping.</p>
+        </div> 
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-20.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">The United Nations’ humanitarian projects face a record funding gap this year, with only a third of the required $48.7bn secured so far as global needs outpace pledges, according to the world body’s Office for the (OCHA).</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-18.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">Tehran, Iran – Iran’s foreign ministry has said talks in Vienna earlier this month to restore its 2015 nuclear deal yielded results, but did not fully address Tehran’s expectations.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-17.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">Hundreds of Sudanese rallied outside a Khartoum conference hall in a show of support for a political initiative backed by army chief Abdel Fattah al-Burhan, who last year led a military coup.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-16.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">US basketball player Brittney Griner’s legal defence team has appealed her conviction by a Russian court for narcotics possession and trafficking – for which she was sentenced to nine years in prison.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-11.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">Russian Defence Minister Sergei Shoigu holds talks with UN Secretary-General Antonio Guterres to discuss the situation at the Zaporizhzhia power plant.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-22.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">But George Wajackoyah, one of four front-line presidential candidates in Kenya, is pressing on, hoping to become the fifth elected president and solve the country’s debt burden by legalising cannabis.</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="width: 17rem;">
+        <img class="card-img"  src="image-23.webp" alt="Card image cap">
+        <div class="cards-body mt-2" style="height: 180px;">
+          <p class="cards-text px-2 mt-2">About two hours before sunset, the heat was bearable. The ground features sand and sharp rocks. Windy conditions, coupled with heat and humidity, made standing difficult, let alone playing cricket.</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>  
+<div class="container-lg container-third mt-3 p-4 d-none d-md-block">
+  <div class="col">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="image-14.webp" class="d-block w-100" alt="..." style="height: 400px;">
+        </div>
+        <div class="carousel-item active">
+          <img src="ukrain-map.webp" class="d-block w-100" alt="..." style="height: 400px;">
+        </div>
+      </div>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="width: 15rem;">
+          <img class="card-img"  src="image-9.jfif" alt="Card image cap"> 
+        </div>
+        <div class="swiper-slide" style="width: 15rem;">
+          <img class="card-img"  src="image-3.png" alt="Card image cap">
+        </div>
+        <div class="swiper-slide" style="width: 15rem;">
+          <img class="card-img"  src="image-5.jfif" alt="Card image cap">
+        </div>
+        <div class="swiper-slide" style="width: 15rem;">
+          <img class="card-img"  src="image-4.jfif" alt="Card image cap">
+        </div>
+        <div class="swiper-slide" style="width: 15rem;">
+          <img class="card-img"  src="image-8.jfif" alt="Card image cap">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination d-none"></div>
+    </div>
+  </div>
+
+</div>
+<div class="container-lg container-forth mt-3 p-0">
+  <div class="row m-0">
+    <div class="col-sm-12 col-md-8 p-0">
+      <div class="row m-0 small-containers" >
+        <div class="col-md-4 col-sm-12 p-0">
+          <img src="image-1.webp" alt="" class="image-fluid" style="height: 180px;">
+        </div>
+        <div class="col-md-8 col-sm-12 py-2 px-3">
+          <h1 class="heading">
+            From: Talk to Al Jazeera
+          </h1>
+          <p class="text">
+            Tourists got lockdowns instead
+            Some 178,000 tourists are reportedly stranded in Hainan as the resort island battles its worst COVID outbreak yet.
+          </p>
+        </div>
+      </div>
+      <div class="row mx-0 mt-3 small-containers">
+        <div class="col-md-4 col-sm-12 p-0">
+          <img src="ukrain-map-2.webp" alt="" class="image-fluid" style="height: 180px;">
+        </div>
+        <div class="col-md-8 col-sm-12 py-2 px-3">
+          <h1 class="heading">
+            War Claims:
+          </h1>
+          <p class="text">
+            75 Years of India Partition
+            Ukraine claims it can hit most Russian supply lines in the south
+            Kyiv has nearly all of Russia’s supply routes  Ukraine under ‘fire control,’ military says.
+          </p>
+        </div>
+      </div>
+      <div class="row mx-0 mt-3 small-containers">
+        <div class="col-md-4 col-sm-12 p-0">
+          <img src="image-11.webp" alt="" class="image-fluid" style="height: 180px;">
+        </div>
+        <div class="col-md-8 col-sm-12 py-2 px-3">
+          <p class="text">
+            A Native American flag hangs above American Indian Nations and American Indian advocates as they hold a press conference in Washington in 2016
+            Johnson & Johnson to stop selling talc-based claims alleging.
+          </p>
+        </div>
+      </div>
+      <div class="row mx-0 mt-3 small-containers">
+        <div class="col-md-4 col-sm-12 p-0">
+          <img src="image-large-6.webp" alt="" class="image-fluid" style="height: 180px;">
+        </div>
+        <div class="col-md-8 col-sm-12 py-2 px-3">
+          <h1 class="heading">
+            FILE PHOTO:
+          </h1>
+          <p class="text">
+            An Afghan woman walks on a street in Kabul, Afghanistan,The controversial author spent years in hiding after 1989 decree by the Iranian leader led to threats against his life.
+          </p>
+        </div>
+      </div>
+    </div> 
+    <div class="col p-0">
+      <div class="card-span" style="height: 100%;">
+        <h1 class="text-center my-2">Documentries</h1>
+        <p class="px-2">-
+          From: Talk to Al Jazeera<br>
+          Francis Kéré: World class architecture, mudbrick by mudbrick
+          Africa’s first Pritzker Prize-winning architect discusses his journey from rural Burkina Faso to global recognition.
+        </p>
+        <p class="px-2">-
+          What’s going on in Hong Kong’s courts?
+          Thousands have been arrested over the 2019 protests, and more than 1,000 trials are currently under way.
+        </p>
+        <p class="px-2">-
+          Nuclear accidents can happen in Europe too: Russian ex-president
+          Dmitry Medvedev’s remarks come amid ongoing fighting between Russian and Ukrainian forces at Zaporizhzhia nuclear plant.
+        </p>
+        <p class="px-2">-
+          A year after Taliban, Afghans who chose to stay fear grim future
+          A judge and a professor say they decided to stay back – despite threats and adverse conditions – to help other Afghans.
+        </p>
+        <p class="px-2">-
+          What’s behind the violent protests in Sierra Leone?
+          Curfew imposed following rare anti-government demonstrations.
+        </p>
+      </div>
+    </div> 
+  </div>
+  <div class="row m-0 mt-3">
+    <div class="col-sm-12 col-md-7 opinion-card">
+      <h1 class="text-center">Opinion</h1>
+      <div class="row mx-0 mt-3">
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-1.jfif"" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">Ennahdha needs to change to save itself </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-2.jfif" alt="" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">Israel: normalising terror, one dawn at a time</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0 mt-2">
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-4.jfif" alt="" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">Murder of Alika Ogoro needs to be investigated again.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-3.jfif" alt="" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">The un-Kenyan election</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0 mt-2">
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-7.jfif" alt="" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">Why Ukraine needs a ‘jubilee’</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 d-flex px-3" style="height: 100px;">
+          <div class="col-4">
+            <img src="passport-6.png" alt="" class="img-fluid Opinion-img">
+          </div>
+          <div class="col">
+            <p class="p-2">Press freedom is under attack in Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-5 p-0">
+      <div class="row m-0 small-containers">
+        <div class="col-12 p-0">
+          <img src="putin.webp" alt="" class="image-fluid" style="height: 300px;">
+        </div>
+        <div class="col-12 py-2 px-3">
+          <h1 class="heading">
+            Putin's war sets Russian economy back 4 years in single quarter
+          </h1>
+          <p class="text">
+            Russia’s gross domestic product (GDP) is now about equal to its size in 2018, according to Bloomberg Economics. After 
+            a Russian service member guards in an area of the Zaporizhzhia Nuclear Power Station in Ukrainian territory occupied by Russia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-lg container-fifth mt-3 py-4 px-5">
+  <div class="row">
+    <div class="col-lg-12 px-0 video-wrapper">
+      <iframe src="https://www.youtube.com/embed/nBT7u1-HDf4" title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="text pt-3 px-0">
+      <p class="mb-0">From: Inside Story</p>
+      <h1>Has the Taliban kept its promises in Afghanistan?</h1>
+    </div>
+  </div>
+</div>
+<div class="container-lg container-sixth mt-3 p-0 footer">
+  <div class="row m-0 footer-wrapper">
+    <div class="col-sm-12 col-lg-6 footer-col-1">
+      <div class="card-body">
+        <h5 class="card-title">News</h5>
+        <div class="row d-flex mt-3">
+          <div class="col-5 text-start">
+            <p>Asia</p> 
+            <p>Africa</p>
+            <p>Europe</p>
+            <p>Middle East</p>
+            <p>US & Canada</p>
+            <p>Latin America</p>
+          </div>
+          <div class="col-7 text-start">
+            <p>Sports</p>
+            <p>Economy</p>
+            <p>Breaking News</p>
+            <p>Ukraine war</p>
+            <p>Entertainment</p>
+            <p>Technology Today</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-3 footer-col-2">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Documentries</h5>
+        <p>Coronavirus</p>
+        <p>Climate Crisis</p>
+        <p>Investigations</p>
+        <p>Interactives</p>
+        <p>Podcasts</p>
+        <p>Science & Technology</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-3 footer-col-3">
+      <div class="mb-2">
+        <h5 class="card-title">Services</h5>
+        <div class="card-content py-2">
+          <p>Apps</p>
+          <p>Get Help</p>
+          <p>Newsletters</p>
+          <p>Watch Aljazeera live Now</p>
+        </div>
+      </div>
+      <div class="row m-0">
+        <h5 class="card-title text-center">ON SOCIAL MEDIA</h5>
+        <div class="card-content d-flex justify-content-between py-2">
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-rss-fill"></i>
+        </div>
+      </div>	
+    </div>
+  </div>
+  <div class="row m-0 text-center copy-right">
+    <p class="my-auto">Copyright &copy2022 - StarTech Sites (Inspired By Al jazeera.com)</p>	
+  </div>
+</div> 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    centeredSlides: false,
+    grabCursor: true,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</html>

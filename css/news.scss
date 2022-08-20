@@ -1,0 +1,167 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+$borderdarkGray: rgba(128, 128, 128, 0.308);
+$borderGray: rgba(128, 128, 128, 0.075);
+body {
+    background: #f7f5f5;
+    font-family: 'Noto Serif HK', serif;
+}
+nav {
+    background: #fff;
+    .brand-name {
+        font-family: 'Tiro Telugu', serif;
+        //font-family: 'Playfair Display', serif;
+        font-size: 40px;
+    }
+
+}
+.container-first {
+    .col-lg-8 {
+        background: #fff;
+    } 
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 60%;
+        padding-top: 50px;
+        height: 0;
+
+        iframe {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .col-lg-4 {
+        background: #fff;
+        border: 1px solid $borderGray;
+    }
+}
+.container-second {
+    border-radius: 7px;
+    background: #fff;
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+
+        .swiper-slide {
+            font-size: 15px;
+            background: #fff;
+            border: 1px solid $borderGray;
+            border-radius: 7px;
+        
+            /* Center slide text vertically */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .card-img {
+                display: block;
+                width: 100%;
+                height: 200px;
+                border-radius: none;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.container-third {
+    background: #fff;
+    .col {
+        border: 1px solid $borderGray;
+    }
+    .swiper {
+        width: 750px;
+        height: 100%;
+        background: transparent;
+        top: -60px;
+
+        .swiper-slide {
+            font-size: 15px;
+            background: #fff;
+            border: 1px solid $borderGray;
+            border-radius: 7px;
+        
+            /* Center slide text vertically */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .card-img {
+                display: block;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.container-forth {
+    .image-fluid {
+        width: 100%;
+    }
+    .small-containers {
+        background: #fff;
+        box-shadow: 0 4px 10px #e6e2e2;
+        overflow: hidden;
+        .heading {
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    .card-span {
+        overflow: hidden;
+        box-shadow: 0 4px 10px #e6e2e2;
+        background: #fff;
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .opinion-card {
+        background: #fff;
+        box-shadow: 0 4px 5px #e6e2e2;
+
+        .Opinion-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+        }
+    }
+}
+.container-fifth {
+    background: #fff;
+    box-shadow: 0 4px 10px #e6e2e2;   
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 50%;
+        padding-top: 25px;
+        height: 0;
+
+        iframe {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.container-sixth {
+    .card-title {
+        font-weight: 700;
+    }
+    .footer-wrapper {
+        box-shadow: 0 4px 5px #e6e2e2;
+        border: 1px solid $borderGray;
+    }
+}
